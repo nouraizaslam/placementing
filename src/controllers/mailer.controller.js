@@ -133,7 +133,7 @@ module.exports = {
                 });
             })
         } catch (e) {
-
+            console.log({ e })
             return APIResponse({
                 res,
                 message: "Server side error",
