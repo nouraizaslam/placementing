@@ -15,6 +15,8 @@ module.exports = {
     from: Joi.string().email().required(),
     to: Joi.string().email().required(),
     subject: Joi.string().required(),
-    body: Joi.string().required()
+    body: Joi.string().required(),
+    cc: Joi.array().items(Joi.string().required()).unique(),
+    bcc: Joi.array().items(Joi.string().required()).unique()
   })
 };

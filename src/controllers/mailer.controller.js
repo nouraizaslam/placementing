@@ -72,6 +72,8 @@ module.exports = {
             password,
             from,
             to,
+            cc,
+            bcc,
             subject,
             body,
             name
@@ -102,6 +104,8 @@ module.exports = {
                     name,
                     address: from,
                 },
+                cc,
+                bcc,
                 to,
                 subject,
                 html: body || '',
