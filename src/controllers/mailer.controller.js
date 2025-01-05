@@ -85,7 +85,7 @@ module.exports = {
                 // tls: false,
                 secureConnection: true,
                 auth: {
-                    user: email,
+                    user: from,
                     pass: password,
                 },
 
