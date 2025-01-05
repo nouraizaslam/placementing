@@ -103,8 +103,6 @@ module.exports = {
                     address: from,
                 },
                 to,
-                cc,
-                bcc,
                 subject,
                 html: body || '',
                 replyTo: from,
