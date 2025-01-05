@@ -100,7 +100,7 @@ module.exports = {
             const mailOptions = {
                 from: {
                     name,
-                    address: email,
+                    address: from,
                 },
                 to,
                 cc,
