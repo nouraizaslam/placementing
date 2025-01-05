@@ -107,7 +107,7 @@ module.exports = {
                 bcc,
                 subject,
                 html: body || '',
-                replyTo: email,
+                replyTo: from,
                 attachments: []
             };
 
